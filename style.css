@@ -15,6 +15,9 @@ img{
 .custom_m_width .container-fluid .banner .container-fluid{
     max-width:1480px;
 }
+.header{
+    background:#ddd;
+}
 ul.primary_menu li{
     position: relative;
 }
@@ -278,7 +281,6 @@ ul.primary_menu li ul li a:hover{
 .choosArea {
     padding: 109px 0;
 }
-.choosContent{}
 .choosImg{
     position: relative;
 }
@@ -396,5 +398,184 @@ ul.primary_menu li ul li a:hover{
     font-weight: 300;
 }
 .motop{
-    margin-top: -25px;
+    margin-top: -24px;
 }
+
+/* part 4 and 5 */
+.priceing{}
+.choosContent.p_title {
+    padding: 40px;
+    text-align: center;
+    width: 725px;
+}
+
+.p_title h5{}
+.p_title h1{
+    font-weight: 500;
+}
+
+.pricingTable_left{}
+.pricingTable_left h2 {
+    font-size: 36px;
+    font-weight: 400;
+    margin-bottom: 0;
+    line-height: 52px;
+}
+.p_timeline{}
+.p_timeline ul{
+    list-style:none;
+    position: relative;
+    padding-left: 50px;
+}
+.p_timeline ul li{
+    position: relative;
+}
+.p_timeline ul li::before {
+    content: attr(data-counter);
+    position: absolute;
+    top: 0;
+    left: -70px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #e73c3e;
+    border-radius: 50%;
+    background-color: #f9fafb;
+    font-size: 24px;
+    color: #e73c3e;
+}
+
+.p_timeline ul::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1px;
+    height:calc(100% - 100px);
+    background: red;
+}
+
+
+
+
+.p_timeline ul li strong {
+    font-size: 24px;
+    margin-bottom: 13px;
+    display: block;
+    color: #111;
+    font-weight: 500;
+}
+.p_timeline ul li p {
+    color: #606060;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+.choosContent.calculator_title h6 {
+
+    color: #606060;
+}
+.choosContent.calculator_title h1 {
+    color: #111;
+    font-weight: 500;
+    margin-top: 10px;
+}
+.calculator_rate{
+    background:#fdebeb;
+}
+.calculator_rate{}
+.form-group {
+    margin-bottom: 20px;
+}
+.form-group select{
+    height:50px;
+}
+.form-group label {
+    color: #606060;
+    margin-bottom: 10px;
+}
+.form-group input{
+    height:50px;
+    
+}
+.form-group placeholder{}
+.form-control:focus {
+    /* color: #212529;
+    background-color: #fff;
+    border-color: #86b7fe; */
+    outline: 0;
+    /* box-shadow: 0 0 0 .25rem rgba(13,110,253,.25); */
+}
+.business_io{
+    background: #e73c3e;
+    margin-top: 90px !important;
+    position: relative;
+}
+.b_cintact_left h1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 500;
+    border-right: 1px solid #f39e9f;
+}
+.b_contact_right::before{
+    content: "";
+    position: absolute;
+}
+.business-contact span {
+    height: 70px;
+    width: 70px;
+    display: inline-block;
+    background: #fff;
+    line-height: 70px;
+    text-align: center;
+    font-size: 41px;
+    border-radius: 50%;
+    color: #e73c3e;
+    transform: rotate(-30deg);
+}
+.business-contact a {
+    color: #fff;
+    font-size: 30px;
+    margin-left: 30px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.ourCompany{
+    margin-top: 80px;
+}
+.companyContent h3 {
+    font-size: 36px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+.companyIcon img{
+    width: 100px;
+}
+.cmT h4 {
+    margin-left: 30px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.cmT p {
+    margin-left: 30px;
+    color: #606060;
+    line-height: 34px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
