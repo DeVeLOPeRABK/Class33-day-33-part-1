@@ -813,3 +813,172 @@ ul.primary_menu li ul li a:hover{
     font-size: 16px;
     color: #606060;
 }
+
+/* part nine css  */
+.sucessStory{}
+.sucessTitle{}
+
+.sucessStoryPost{}
+.sucessStoryPost{}
+.sucessPostImg{}
+.sucessPostImg img{
+    cursor: pointer;
+}
+.sucessPostContent{}
+.sucessPostContent span {
+    color: #e73c3e;
+    font-weight: 500;
+    display: inline-block;
+    padding: 18px 0;
+}
+.sucessPostContent h3 a{
+    font-size: 28px;
+    line-height: 36px;
+    transition: .5s;
+    cursor: pointer;
+    text-decoration:none;
+    color: #000000;
+    font-weight: 500;
+}
+.sucessPostContent h3 a:hover{
+    color: #e73c3e;
+}
+.sucessPostContent .sucessbtn {
+    text-decoration: none;
+    color: #000;
+    font-size: 19px;
+    font-weight: 500;
+    transition: .5s;
+}
+.sucessStoryPost:hover .sucessbtn{
+    letter-spacing: 1px;
+    color: #e73c3e;
+}
+
+
+/* footer section */
+.footer{
+    background:#111111;
+    color: white;
+}
+.footerContact{
+    
+}
+.f_logo img{}
+.f_logo p {
+    padding: 20px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #fff;
+}
+
+.f_contact h3::after{
+    content: " ";
+    position: absolute;
+}
+.f_contact ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.social li {
+    padding: 0 10px;
+}
+.social li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 17px;
+    transition: .5s;
+}
+.social li a:hover{
+    color:#e73c3e;
+}
+
+
+.footerMenu {
+    list-style: none;
+    padding: 0;
+}
+.footerContact h3{
+    border-bottom: 1px solid #333535;
+    padding-bottom: 20px;
+    font-size:20px;
+    font-weight: 500;
+}
+.footerMenu li {
+    padding: 10px 0;
+}
+.footerMenu li a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    transition: .5s;
+    display: block;
+}
+.footerMenu li a:hover{
+    color:#e73c3e;
+    letter-spacing:1px;
+}
+
+.infoContact{
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 22px;
+}
+.infoContact i{
+    position: absolute;
+    left: 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 700;
+    top: 5px;
+}
+.infoContact .flaticonPin::before{
+    content: "\f3c5";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+}
+.infoContact .flaticonEmail::before{
+    content: "\f0e0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+}
+.infoContact .flaticonTelephon::before{
+    content: "\f2a0";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 600;
+}
+
+.infoContact span a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 400;
+    transition: .5s;
+}
+.infoContact span a:hover{
+    color: #e73c3e;
+}
+.flaticonTelephon.roteticon {
+    transform: rotate(308deg);
+    font-size: 30px;
+}
+
+
+footer{
+    background: #111111;
+    border-top: 1px solid #292929;
+}
+.footerBottom p{
+    color:#fff;
+}
+.footerBottom p a {
+    color: #fff;
+    font-size: 19px;
+    text-decoration: none;
+    transition: .5s;
+}
+.footerBottom p a:hover{ 
+    color: #e73c3e;
+}
